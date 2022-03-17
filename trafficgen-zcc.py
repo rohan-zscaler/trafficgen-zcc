@@ -15,7 +15,6 @@ while True:
  options.add_argument('--no-sandbox')
  #Adding experimental_option to suppress bluetooth warnings
  options.add_experimental_option("excludeSwitches", ["enable-logging"])
- #driver = webdriver.Chrome(chrome_options=options)
  driver = webdriver.Chrome(options=options)
 
 
@@ -35,13 +34,13 @@ while True:
 'https://pandora.com', 'https://tripadvisor.com', 'https://ebay.com', 
 'https://nfl.com', 'https://hive.blog', 'https://www.gizmodo.com', 
 'https://cnn.com', 'https://stackexchange.com', 'https://vice.com', 
-'https://www.parade.com', 'https://msn.com', 'https://investopedia.com', 
+'https://www.karate.com', 'https://msn.com', 'https://investopedia.com', 
 'https://paypal.com', 'https://dc.gov', 'https://www.smartsheet.com/', 
 'https://blog.jp', 'https://flights.google.com', 'https://pinimg.com', 
 'https://tistory.com', 'https://livejournal.com', 'https://dell.com', 
 'https://cbssports.com', 'https://messenger.com', 'https://loksatta.com', 
 'https://wikipedia.org', 'https://www.similarweb.com', 'https://nih.gov', 
-'https://nbc.com', 'http://amazonaws.com',   'https://yelp.com' , 'https://zillow.com' , 'https://weebly.com'  ]
+'https://nbc.com', 'http://amazonaws.com',   'https://yelp.com' , 'https://weebly.com'  ]
  site_to_query = random.choice(list_of_sites)
  print(site_to_query)
  try:
@@ -86,7 +85,6 @@ while True:
       #os.system("pkill "+browserExe)
       #os.system("taskkill /f /im "+browserExe)
       driver.close()
-      print("###not enough links###")
       continue
 
 
