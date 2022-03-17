@@ -6,4 +6,4 @@ Script requires chromedriver being installed on the machine. Based on your OS an
 
 https://chromedriver.chromium.org/downloads
 
-For windows, chromedriver (downloaded from link above) needs to unzipped and the unzipped file needs to be copied to C:\Windows folder
+For windows, chromedriver (downloaded from link above) needs to unzipped and the unzipped file needs to be copied to some place in the PATH e.g. C:\Windows folder
