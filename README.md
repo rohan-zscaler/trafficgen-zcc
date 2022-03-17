@@ -1,7 +1,7 @@
 # trafficgen-zcc
 traffic generation via ZIA using ZCC
 
-This has was created for Windows platform (prior to ZCC being available for Linux) but should work on Linux with minor modifications.
+This was created for Windows platform (prior to ZCC being available for Linux) but should work on Linux with minor modifications.
 Script requires chromedriver being installed on the machine. Based on your OS and Chrome version, download the approprate chromedriver version from link below
 
 https://chromedriver.chromium.org/downloads
